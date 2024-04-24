@@ -18,7 +18,7 @@ public class PollClient {
 	      BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 	      Scanner scanner = new Scanner(System.in);
 	    ) {
-	      System.out.println("Connected to poll server.");
+	      System.out.println("Connected to poll server."); //comment added
 	      System.out.println("Enter 'yes', 'no', or 'dontcare' to vote.");
 	      System.out.println("Enter 'getCounts' to retrieve current vote counts.");
 	      String inputLine;
