@@ -26,7 +26,8 @@ public class PollClient {
 	        out.println(inputLine);
 	        if (inputLine.equals("getCounts")) {
 	          System.out.println(in.readLine());
-	        }
+	        }// comment in develop branch
+	        
 	      }
 	    }// End of code
 	  }
