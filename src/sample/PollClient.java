@@ -10,6 +10,7 @@ import java.util.Scanner;
 public class PollClient {
 	  private static final String HOST = "localhost";
 	  private static final int PORT = 8000;
+	  //Done in Bugchecks
 
 	  public static void main(String[] args) throws IOException {
 	    try (
@@ -26,7 +27,7 @@ public class PollClient {
 	        out.println(inputLine);
 	        if (inputLine.equals("getCounts")) {
 	          System.out.println(in.readLine());
-	        }// comment in develop branch
+	        }// Modified Comment by Bharath
 	        
 	      }
 	    }// End of code
