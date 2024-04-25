@@ -10,6 +10,7 @@ import java.util.Scanner;
 public class PollClient {
 	  private static final String HOST = "localhost";
 	  private static final int PORT = 8000;
+	  //Done in Bugchecks
 
 	  public static void main(String[] args) throws IOException {
 	    try (
